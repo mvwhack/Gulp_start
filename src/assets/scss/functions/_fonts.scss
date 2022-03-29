@@ -1,0 +1,19 @@
+// @mixin font($alias, $name, $weight) {
+//   @font-face {
+//     font-family: $alias;
+//     src: url("../fonts/" + $name + "/" + $name + ".woff2") format("woff2"),
+//       url("../fonts/" + $name + "/" + $name + ".woff") format("woff"),
+//       url("../fonts/" + $name + "/" + $name + ".ttf") format("truetype"),
+//       url("../fonts/" + $name + "/" + $name + ".eot"),
+//       url("../fonts/" + $name + "/" + $name + ".eot?#iefix")
+//         format("embedded-opentype");
+//     font-weight: $weight;
+//     font-display: swap;
+//   }
+// }
+
+// @include font("Roboto", "Roboto-Regular", 400);
+// @include font("Roboto", "Roboto-Medium", 500);
+// @include font("Jost", "Jost-Bold", 700);
+// @include font("Jost", "Jost-Black", 900);
+
